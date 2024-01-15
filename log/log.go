@@ -9,6 +9,6 @@ func InitSlog() {
 	logger := slog.New(slog.NewJSONHandler(os.Stdout, nil))
 	slog.SetDefault(logger)
 
-	slog.Debug("This is my first version")
+	slog.Info("This is my second version")
 }
 
